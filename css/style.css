@@ -1,0 +1,158 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  -webkit-transition: color 0.3s ease;
+  -moz-transition: color 0.3s ease;
+  -ms-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: coral;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  line-height: 1.57;
+  background-color: #ffdbb4;
+}
+
+.header {
+  text-align: center;
+  line-height: 0;
+}
+
+.header__line {
+  width: 100%;
+  height: 36px;
+  background-image: url(../img/tile-2.jpg);
+  background-repeat: repeat-x;
+}
+
+body#text {
+  padding: 20px;
+}
+
+#text p {
+  text-align: justify;
+}
+
+#text p span,
+.text__title {
+  color: coral;
+  font-weight: 700;
+  text-decoration: underline;
+  font-size: 120%;
+}
+
+a.text__title {
+  display: block;
+  text-align: center;
+}
+
+#text p::first-letter, .text__title::first-letter {
+  font-size: 150%;
+  font-style: italic;
+}
+
+body#menu {
+  background-color: #9bd3ee;
+  color: #333;
+  min-width: 270px;
+}
+
+.menu__list {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-style: italic;
+  padding-top: 20px;
+  padding-right: 20px;
+  list-style-image: url(../img/shape2.png);
+}
+
+.toc {
+  margin: 40px auto;
+  max-width: fit-content;
+}
+
+.toc__sublist {
+  list-style-image: url(../img/List.png);
+}
+
+.pyramids__table {
+  background-color: lightgreen;
+}
+
+.pyramids__table td {
+  padding: 5px;
+}
+
+.pyramids__table thead {
+  background-color: #63b963;
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* Footer */
+.footer {
+  padding: 10px 0;
+  background-color: #363636;
+  color: #ffeec0;
+  border-top: 2px solid aliceblue;
+}
+
+.footer a {
+  color: #b67e4a;
+  transition: color 0.2s ease;
+}
+
+.footer a:hover {
+  color: aliceblue;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-width: 1035px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer__title {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.socials {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.copyright__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.copyright__item {
+  margin-bottom: 5px;
+}
+/* --------------------------------- */
